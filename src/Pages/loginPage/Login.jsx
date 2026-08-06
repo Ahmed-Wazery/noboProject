@@ -440,24 +440,10 @@ export default function LoginPage() {
             <SideFeature img={Sheild} title="قوة أعمالك" desc="نظام متكامل لإدارة جميع عملياتك" color="#2b8cff" />
             <SideFeature img={brain2} title="ذكاء نوبو" desc="تحليلات ذكية وتوقعات دقيقة لدعم نمو أعمالك" color="#ff3d6b" />
             <SideFeature img={world2} title="من السعودية للعالم" desc="إدارة محلية برؤية عالمية" color="#f5b800" />
-          </div>
-          <div className="panel rounded-3xl p-2 flex flex-col pt-2 w-fit">
-            <div className="p-3 text-xs text-gray-300 flex items-start gap-2">
-              <img src={Cloud} alt="" className="w-4 h-4 mt-0.5 shrink-0 object-contain" />
-              يعمل أونلاين وأوفلاين، استمر في عملك بدون إنترنت
-            </div>
-            <div className="p-3 text-xs text-gray-300 flex items-start gap-2">
-              <img src={analysis} alt="" className="w-4 h-4 mt-0.5 shrink-0 object-contain" />
-              تقارير لحظية ذكية، تقارير فورية أدق لقرارات أوسع
-            </div>
-            <div className="p-3 text-xs text-gray-300 flex items-start gap-2">
-              <img src={tab2} alt="" className="w-4 h-4 mt-0.5 shrink-0 object-contain" />
-              يعمل على جميع الأجهزة، كمبيوتر، تابلت، جوال
-            </div>
-            <div className="p-3 text-xs text-gray-300 flex items-start gap-2">
-              <img src={Speaker} alt="" className="w-4 h-4 mt-0.5 shrink-0 object-contain" />
-              دعم فني عالمي 24/7/365، طوال العام
-            </div>
+            <SideFeature img={Cloud} title="متاح على جميع الأجهزة" desc="كمبيوتر، تابلت، جوال" color="#17d9c4" />
+            <SideFeature img={analysis} title="   تقارير لحظية ذكية، تقارير فورية أدق لقرارات أوسع" desc="تحليلات ذكية وتوقعات دقيقة لدعم نمو أعمالك" color="#ff3d6b" />  
+          <SideFeature img={tab2} title="يدعم جميع اللغات بلا حدود" desc="إدارة محلية برؤية عالمية" color="#f5b800" />
+          <SideFeature img={Speaker} title="دعم فني عالمي 24/7/365" desc="تحليلات ذكية وتوقعات دقيقة لدعم نمو أعمالك" color="#ff3d6b" />
           </div>
         </div>
 
